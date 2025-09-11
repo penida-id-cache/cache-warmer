@@ -12,15 +12,10 @@ const APPS_SCRIPT_URL = process.env.APPS_SCRIPT_URL; // URL Web App GAS (/exec)
 /* ====== KONFIG DOMAIN/PROXY/UA ====== */
 const DOMAINS_MAP = {
   id: "https://penidadivecenter.com",
-  tw: "https://penidadivecenter.com",
   au: "https://penidadivecenter.com",
-  nl: "https://penidadivecenter.com",
   no: "https://penidadivecenter.com",
   dk: "https://penidadivecenter.com",
-  de: "https://penidadivecenter.com",
-  fr: "https://penidadivecenter.com",
   en: "https://penidadivecenter.com",
-  es: "https://penidadivecenter.com",
   se: "https://penidadivecenter.com",
   fl: "https://penidadivecenter.com",
   my: "https://penidadivecenter.com",
@@ -41,15 +36,10 @@ const DOMAINS_MAP = {
 
 const PROXIES = {
   id: process.env.BRD_PROXY_ID,
-  tw: process.env.BRD_PROXY_TW,
   au: process.env.BRD_PROXY_AU,
-  nl: process.env.BRD_PROXY_NL,
   no: process.env.BRD_PROXY_NO,
   dk: process.env.BRD_PROXY_DK,
-  de: process.env.BRD_PROXY_DE,
-  fr: process.env.BRD_PROXY_FR,
   en: process.env.BRD_PROXY_EN,
-  es: process.env.BRD_PROXY_ES,
   se: process.env.BRD_PROXY_SE,
   fl: process.env.BRD_PROXY_FL,
   my: process.env.BRD_PROXY_MY,
@@ -71,15 +61,10 @@ const PROXIES = {
 // UA browser-like agar tidak mudah diblokir WAF/CDN
 const USER_AGENTS = {
   id: "PenidaDiveCenter-CacheWarmer-ID/1.0",
-  tw: "PenidaDiveCenter-CacheWarmer-TW/1.0",
   au: "PenidaDiveCenter-CacheWarmer-AU/1.0",
-  nl: "PenidaDiveCenter-CacheWarmer-NL/1.0",
   no: "PenidaDiveCenter-CacheWarmer-NO/1.0",
   dk: "PenidaDiveCenter-CacheWarmer-DK/1.0",
-  de: "PenidaDiveCenter-CacheWarmer-DE/1.0",
-  fr: "PenidaDiveCenter-CacheWarmer-FR/1.0",
   en: "PenidaDiveCenter-CacheWarmer-EN/1.0",
-  es: "PenidaDiveCenter-CacheWarmer-ES/1.0",
   se: "PenidaDiveCenter-CacheWarmer-SE/1.0",
   fl: "PenidaDiveCenter-CacheWarmer-FL/1.0",
   my: "PenidaDiveCenter-CacheWarmer-MY/1.0",
